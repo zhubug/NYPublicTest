@@ -41,6 +41,12 @@ TODO: Add long description of the pod here.
    }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'MJExtension', 'AFNetworking','UMCCommon','UMCAnalytics','UMCSecurityPlugins','UMCShare/Social/ReducedWeChat','WechatOpenSDK'
   s.dependency 'WechatOpenSDK', '1.8.4'
+  s.dependency 'MJExtension'
+  s.dependency 'UMCShare/Social/ReducedWeChat'
+  s.dependency 'UMCSecurityPlugins'
+  s.dependency 'UMCAnalytics'
+  s.dependency 'UMCCommon'
+  s.dependency 'AFNetworking'
+  
 end

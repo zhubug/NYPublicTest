@@ -30,6 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+  s.source_files = 'NYPublicTest/Classes/**/*.h'
+
   s.resource_bundles = {
      'NYPublicTest' => ['NYPublicTest/Assets/*']
    }
@@ -43,10 +45,4 @@ TODO: Add long description of the pod here.
   s.dependency 'UMCCommon'
   s.dependency 'AFNetworking'
   
-if ENV['IS_SOURCE']
-  s.source_files = 'NYPublicTest/Classes/**/*{,h,.m}'
-else
-    s.source_files = 'NYPublicTest/Classes/**/*.h'
-    s.vendored_framework = 'NYPublicTest-0.1.0/ios/NYPublicTest.framework'
   end
-end

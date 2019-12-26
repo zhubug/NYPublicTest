@@ -36,13 +36,13 @@ TODO: Add long description of the pod here.
      'NYPublicTest' => ['NYPublicTest/Assets/*']
    }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.dependency 'WechatOpenSDK', '1.8.4'
-  s.dependency 'MJExtension'
-  s.dependency 'UMCShare/Social/ReducedWeChat'
-  s.dependency 'UMCSecurityPlugins'
-  s.dependency 'UMCAnalytics'
-  s.dependency 'UMCCommon'
-  s.dependency 'AFNetworking'
+ # s.public_header_files = 'Pod/Classes/**/*.h'
+ # s.dependency 'WechatOpenSDK', '1.8.4'
+ # s.dependency 'MJExtension'
+ # s.dependency 'UMCShare/Social/ReducedWeChat'
+ # s.dependency 'UMCSecurityPlugins'
+ # s.dependency 'UMCAnalytics'
+ # s.dependency 'UMCCommon'
+ # s.dependency 'AFNetworking'
   
   end

@@ -35,10 +35,7 @@ TODO: Add long description of the pod here.
 
   else
     s.source_files = 'NYPublicTest/Classes/**/*.h'
-    
     s.vendored_framework = 'NYPublicTest-0.1.0/ios/NYPublicTest.framework'
-    s.vendored_framework = 'NYPublicTest/ATAuthSDK.framework'
-
   end
   s.resource_bundles = {
      'NYPublicTest' => ['NYPublicTest/Assets/*']
